@@ -98,6 +98,8 @@ export const idTypesMapNameToPrefix = {
   memory: "mem",
   memctx: "mctx",
   tempFile: "tmpf",
+  dashboard: "dsb",
+  dashboardAccessGrant: "dsg",
 } as const
 
 export const denTypeIdPrefixes = idTypesMapNameToPrefix
